@@ -1,0 +1,15 @@
+@import 'tipografia.css';
+@import 'cores.css';
+@import 'global.css';
+@import 'componentes.css';
+@import 'anima.css';
+
+@import 'secao1-hero.css';
+@import 'secao2-who.css';
+@import 'secao3-depoimentos.css';
+@import 'secao4-aulas.css';
+@import 'secao5-bonus.css';
+@import 'secao6-oferta.css';
+@import 'secao7-transformacao.css';
+@import 'secao8-bio.css';
+@import 'secao9-faq.css';
