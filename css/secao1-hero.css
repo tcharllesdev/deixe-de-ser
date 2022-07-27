@@ -63,7 +63,7 @@ lite-youtube {
 @media (max-width: 800px) {
   .hero-bg {
     background-image: url("../img/hero-bg-800.jpg");
-    height: 1380px;
+    height: 1320px;
   }
   .hero img:first-of-type {
     padding-top: 420px;

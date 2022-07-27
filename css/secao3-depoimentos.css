@@ -25,6 +25,10 @@
   margin-bottom: 32px;
 }
 
+.feedback-img img {
+  max-height: 460px;
+}
+
 .feedback span {
   font-weight: 700;
 }

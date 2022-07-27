@@ -7,14 +7,14 @@
 .bio {
   display: flex;
   align-items: flex-start;
-  gap: 40px;
+  gap: 60px;
 }
 
 .bio-text {
   max-width: 500px;
 }
 .bio-text h1 {
-  padding-top: 40px;
+  padding-top: 60px;
   margin-bottom: 24px;
 }
 
@@ -24,23 +24,30 @@
 
 .bio-img img {
   border-radius: 5px;
-  margin-top: 40px;
+  margin-top: 60px;
+
+  height: 460px;
+  margin-bottom: 60px;
 }
 
 @media (max-width: 800px) {
+  .bio-bg {
+    padding-bottom: 40px;
+  }
   .bio {
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 0;
   }
   .bio-img img {
     order: 1;
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-bottom: 32px;
   }
   .bio-text {
     order: 2;
   }
   .bio-text h1 {
-    padding-top: 20px;
     font-size: 2rem;
+    padding-top: 0;
   }
 }
